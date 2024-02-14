@@ -45,6 +45,16 @@ nav .container {
     background-color: #712bb8;
 }
 
+#mean {
+    display: none;
+}
+
+label {
+    display: none;
+    color: white;
+    font-size: 30px;
+}
+
 nav ul {
     list-style: none;
     padding: 10px 160px;
@@ -531,7 +541,6 @@ nav .navbar li .home {
 }
 
 .faq .content h4 {
-    font-weight: 400;
     font-size: 25px;
 }
 
@@ -748,6 +757,26 @@ footer p {
 /* end footer */
  /* start media */
 @media all and (max-width:900px) {
+    #mean:checked ~ .navbar {
+        display: flex;
+        flex-direction: column;
+        transition: 0.5s ease;
+        .text{
+            display: none;
+        }
+    }
+    label{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+nav {
+        position: absolute;
+    }
+.nav-ul{
+    margin-right: 105px;
+}
 nav .nav-li {
     overflow: auto;
     background: rgb(213, 198, 221);
@@ -758,7 +787,57 @@ nav .nav-li {
 #contact_form {
     margin-bottom: 20px;
 }
-
+nav .container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+}
+.logo {
+    display: flex;
+    padding: 0px;
+}
+.download .section-content {
+    padding: 10px 100px 10px;
+}
+.icon-border-text-left {
+    padding-left: 0px;
+}
+.feature h5 {
+    font-size: 12px;
+}
+.icon-border-text-left p {
+    font-size: 10px;
+}
+.feature .container .icon-border-text-right {
+    font-size: 10px;
+}
+.testimonial .item p {
+    font-size: 18px;
+}
+.testimonial .section-content {
+    padding-left: 37px;
+}
+.contact .full .right ul {
+    padding: 9px;
+}
+.all {
+    padding: 50px;
+}
+.banner .all .left .img {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.banner .all .left .p2 {
+    word-wrap: none;
+    width: 85%;
+    padding-top: 50px;
+}
+.feature .container .icon-border-text-right {
+    padding-left: 15px;
+}
+.team .member {
+    padding: 20px 0px;
+}
 }
 
 @media all and (max-width:750px) {
@@ -771,6 +850,31 @@ h2 {
 
 h3 {
     font-size: 22px;
+}
+nav ul {
+    padding: 10px 80px;
+}
+.all {
+    padding: 14px;
+}
+.testimonial .item p {
+    font-size: 12px;
+}
+.faq .content h4 {
+    /* font-weight: 400; */
+    font-size: 20px;
+}
+.download .section-content {
+    padding: 2px 88px 10px;
+}
+.testimonial .item .img img {
+    /* border: 12px solid #fff; */
+}
+.icon-border-text-left p {
+    font-size: 9px;
+}
+.feature h5 {
+    font-size: 9px;
 }
 .banner .left{
     padding-right: 0px;
@@ -809,5 +913,6 @@ h3 {
 }
 footer p {
     font-size: 10px;
+    
 }
 }
