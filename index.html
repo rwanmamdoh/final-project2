@@ -1,375 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
-        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-
+    <script src="https://kit.fontawesome.com/431cb4a055.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <title>Final Project </title>
 </head>
-
 <body>
-
-    <nav>
-        <div class="container">
-            <a class="logo" href="#">
-                <img src="./logo.png" class="logo2" alt="logo">
-            </a>
-            <botton class="botton"><span></span></botton>
-            <ul class="navbar">
-                <li><a href class="home">Home</a></li>
-                <li><a href="#" class="link">About</a></li>
-                <li><a href="#" class="link">Features</a></li>
-                <li><a href="#" class="link">team</a></li>
-                <li><a href="#" class="link">testimonials</a></li>
-                <li><a href="#" class="link">faq</a></li>
-                <li><a href="#" class="link">contact</a></li>
+    <section class="project">
+        <!-- start logo -->
+        <div class="logo">
+            <h1>Plumberz</h1>
+            <ul>
+                <li><i class="fa-solid fa-location-dot"></i>123 Street,New York,USA</li>
+                <li><i class="fa-solid fa-envelope-open"></i>info@example.com</li>
+                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
             </ul>
         </div>
-    </nav>
-    <!-- end nav -->
-    <!-- start banner -->
-    <section class="banner">
-        <div class="all">
-            <div class="left">
-                <div class="h1p">
-                    <h1 class="h1">best app website template</h1>
-                    <p class="p1">This is awesome template desiged by 
-                        <a href="http://w3Template.com">W3 Template</a>
-                    </p>
-                    <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, harum optio itaque rerum et deleniti! Reprehenderit quas expedita quisquam. Impedit beatae nobis odio ipsum laudantium quibusdam, alias nemo doloribus facilis.</p>
-                </div>
-                <div class="img">
-                    <a href="#"> <img src="./appstore.png"></a></li>
-                    <a href="#"> <img src="./playstore.png"></a></li>
+        <!-- end logo -->
+        <!-- start header  -->
+        <div class="header">
+        <ul id="immo">
+            <label for="mean">
+                <i class="fas fa-bars fa-beat" id="bar"></i>
+            </label>
+            <input id="mean" type="checkbox">
+            <div class="links">
+                <ul>
+                    <li><a href="./index.html" class="blue">HOME</a></li>
+                    <li><a href="./about us index .html">ABOUT</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><select name="" id="page">
+                            <option value="">PAGES</option>
+                            <option value="">Booking</option>
+                            <option value="">Technicians</option>
+                            <option value="">Testimonial</option>
+                            <option value="">404 page</option>
+                    </select></li>
+                    <li><a href="./contact index .html">CONTACT</a></li>
+                </ul>
 
-                </div>
+            </div>
+            <div class="text">
+                <i class="fa-solid fa-phone"></i>
+                <p>
+                    Emergency 24/7 <span>+0123456789</span>
+                </p>
+            </div>
+        </ul>
+
+        </div>
+        <!-- end header  -->
+        <!-- start photo  -->
+        <div class="photo">
+            <div class="border">
+            </div>
+            <div class="photo2">
+                <P>PLUMBING & REPARING SERVICES</P>
+                <p class="a">
+                    Efficient Commercial
+                    Plumbing Services
+                </p>
+                <p class="oo">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. kasd rebum ipsum</p>
+                <span></span>
+                <button class="button1">Read More</button>
+                <span></span>
+                <button class="button2">Free Quote</button>
+            </div>
+        </div>
+        <!-- end photo -->
+        <!-- start cards  -->
+        <div class="cards">
+            <div class="card">
+                <img src="./img/service-1.jpg" alt="">
+                <p>
+                    Residential Plumbing
+                    <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+                </p>
+                
+            </div>
+            <div class="card">
+                <img src="./img/service-2.jpg" alt="">
+                <p>
+                    Commercial Plumbing
+                    <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+                </p>
+            </div>
+            <div class="card">
+                <img src="./img/service-3.jpg" alt="">
+                <p>
+                    Emergency Service
+                    <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+                </p>
+            </div>
+        </div>
+        <!-- end cards  -->
+        <!-- start about-us  -->
+        <div class="about-us">
+            <div class="left">
+                <h3>ABOUT US</h3>
+            <p>
+                We Are Trusted Plumbing
+                Company since 1990
+            </p>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                deserunt est laborum sequi ipsa architecto a explicabo,
+                libero veritatis beatae laudantium modi rerum ratione iste!</h4>
+                <a><i class="fa-solid fa-check"></i>Residential & Commercial Plumbing</a>
+                <a><i class="fa-solid fa-check"></i>Quality Services At Affordable Prices</a>
+                <a><i class="fa-solid fa-check"></i>Immediate 24/7 Emergency Service</a>
+            </div>
+            
+                <div class="right">
+                    <div class="one ">
+                        <img src="./img/about-1.jpg" alt="">
+                    </div>
+                
+                    <div class="two ">
+                        <img src="./img/about-2.jpg" alt="">
+                    </div>
+                </div> 
+        </div>
+        <!-- end about-us -->
+        <!-- start Emergency -->
+        <div class="Emergency">
+            <div class="text">
+                <i class="fa-solid fa-phone"></i>
+                <p>
+                    Emergency 24/7 <span>+0123456789</span>
+                </p>
+            </div>
+        </div>
+        <!-- end Emergency -->
+        <!-- start bannar -->
+        <div class="bannar">
+            <div class="bannar1">
+                <i class="fa-solid fa-check"></i>
+                <p>93</p>
+                <p>Years Experience</p>
+            </div>
+            <div class="bannar1">
+                <i class="fa-solid fa-users-gear"></i>
+                <p>93</p>
+                <p>Satisfied Clentts</p>
+            </div>
+            <div class="bannar1">
+                <i class="fa-solid fa-users"></i>
+                <p>93</p>
+                <p>Compleate Project</p>
+            </div>
+            <div class="bannar1">
+                <i class="fa-solid fa-wrench"></i>
+                <p>93</p>
+                <p>Compleate Project</p>
+            </div>
+        </div>
+        <!-- end bannar -->
+        <!-- start our-services  -->
+        <div class="our-services">
+            <div class="left">
+                <p>15 Years Experience</p>
             </div>
             <div class="right">
-                <img src="./iphone-screen.png">
+                <p>Our Service</p>
+                <h2>Explore Our Services</h2>
+            <div class="sewer">
+                    <div class="water">
+                        <div class="icon">
+                            <i class="fa-solid fa-toilet"></i>
+                        </div>
+                        <h2>Toilet Pipe Repair</h2>
+                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum disum diam lorem justo</p>
+                        <a><i class="fa-solid fa-check"></i>Quality Service</a>
+                        <a><i class="fa-solid fa-check"></i>Customer satisfacttion</a>
+                        <a><i class="fa-solid fa-check"></i>Support 24/7</a>
+                        <div class="link">
+                            <a href="">Read More<i class="fa-solid fa-arrow-right fa-beat-fade" style="color: #810808;"></i></a>
+                        </div>
+                    </div>
+                    <div class="water">
+                        <div class="icon">
+                            <i class="fa-solid fa-sink"></i>
+                        </div>
+                        <h2>Sewer Line Repair</h2>
+                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum disum diam lorem justo</p>
+                        <a><i class="fa-solid fa-check"></i>Quality Service</a>
+                        <a><i class="fa-solid fa-check"></i>Customer satisfacttion</a>
+                        <a><i class="fa-solid fa-check"></i>Support 24/7</a>
+                        <div class="link">
+                            <a href="">Read More<i class="fa-solid fa-arrow-right fa-beat-fade" style="color: #810808;"></i></a>
+                        </div>
+                    </div>
+                    <div class="water">
+                        <div class="icon">
+                            <i class="fa-solid fa-droplet"></i>
+                        </div>
+                        <h2>Water Heater Repair </h2>
+                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum disum diam lorem justo</p>
+                        <a><i class="fa-solid fa-check"></i>Quality Service</a>
+                        <a><i class="fa-solid fa-check"></i>Customer satisfacttion</a>
+                        <a><i class="fa-solid fa-check"></i>Support 24/7</a>
+                        <div class="link">
+                            <a href="">Read More<i class="fa-solid fa-arrow-right fa-beat-fade" style="color: #810808;"></i></a>
+                        </div>
+                    </div>
+            </div>
             </div>
         </div>
-        <span class="svg-wave">
-            <img class="svg" src="./applight-wave.svg"> 
-            </span>
-    </section>
-    <!-- end banner -->
-    <!-- start about -->
-    <section class="aboutAll">
-
-        <div class="about-header">
-            <h2>About</h2>
-            <span class="line"></span>
-            <p>Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus, vestibulum ante in, pharetra ante.</p>
-        </div>
-        <div class="all-icons">
-            <div class="icons">
-                <div class="icon1">
-                    <div class="icon-box">
-                        <i class="fa fa-life-ring" aria-hidden="true"></i>
-                        <h4>support</h4>
-                        <p>Phasellus lobortis justo a magna facilisis, in commodo tellus rutrum. Sed vitae condimentum nulla.</p>
-                    </div>
-                </div>
-                <div class="icon2">
-                    <div class="icon-box">
-                        <i class="fa fa-mobile" aria-hidden="true"></i>
-                        <h4>Cross Platform</h4>
-                        <p>Phasellus lobortis justo a magna facilisis, in commodo tellus rutrum. Sed vitae condimentum nulla.</p>
-                    </div>
-                </div>
-                <div class="icon3">
-                    <div class="icon-box">
-                        <i class="fa fa-bolt" aria-hidden="true"></i>
-                        <h4>fast</h4>
-                        <p>Phasellus lobortis justo a magna facilisis, in commodo tellus rutrum. Sed vitae condimentum nulla.</p>
-                    </div>
+        <!-- end our-services  -->
+        <!-- start book -->
+        <div class="book">
+            <div class="book1">
+                <i class="fa-regular fa-circle-play fa-spin fa-2xl" style="color: #026bd4;"></i>
+                <div class="text">
+                    <p>
+                        Emergency blumbing Service
+                    </p>
+                    <a>
+                        24 Hours 7 days a week
+                    </a>
                 </div>
             </div>
-            <div class="bottom">
-                <a href="#" class="about-bottom">Learn More</a>
-            </div>
-        </div>
-
-    </section>
-    <!-- end about -->
-    <!-- start video -->
-    <section class="video">
-
-        <div class="background">
-            <div class="container">
-                <h4>Watch Now</h4>
-                <a href="https://www.youtube.com"><i class="fa fa-play" id="video-icon" aria-hidden="true"></i></a>
-            </div>
-        </div>
-    </section>
-    <!-- end video -->
-    <!-- start feature -->
-    <section class="feature">
-        <div class="container">
-            <div class="section-header-text-center">
-                <h3>Features</h3>
-                <span class="line"></span>
-                <p>Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus,vestibulumante in, pharetra ante.</p>
-            </div>
-            <div class="section-content-text-center">
-                <div class="icon-border-text-right">
-                    <div class="icon-border">
-                        <span class="fa fa-bolt" aria-hidden="true"></span>
-                    </div>
-                    <div class="text-right">
-                        <h5>Fast Processing</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
-                    </div>
-                    <div class="icon-border"> 
-                        <span class="fa fa-battery-full" aria-hidden="true"></span>
-                    </div>
-                        <div class="text-right">
-                            <h5>Low Power Consuming</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
-                        </div>
-                        <div class="icon-border"> 
-                            <span class="fa fa-wifi" aria-hidden="true"></span>
-                        </div>
-                        <div class="text-right">
-                            <h5>Wifi Compatibility</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
-                        </div>
-                        
-                    </div>
-                    <div class="feature-mobile"> 
-                        <img src="./iphone-screen-with-shadow.png" class="img" />
-                    </div>
-                    <div class="icon-border-text-left">
-                        <div class="icon-border">
-                            <span class="fa fa-check-double" aria-hidden="true"></span>
-                        </div>
-                        <div class="text-left">
-                            <h5>Regular Updates</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
-                        </div>
-                        <div class="icon-border">
-                            <span class="fa fa-dollar-sign" aria-hidden="true"></span>
-                        </div>
-                        <div class="text-left">
-                            <h5>Save Money</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempo incididugnt ut labore</p>
-                        </div>
-                        <div class="icon-border"> 
-                            <span class="fa fa-hdd" aria-hidden="true"></span> 
-                        </div>
-                        <div class="text-left">
-                            <h5>Unlimited Storage</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempo incididugnt ut labore</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
-    <!--end feature -->
-    <!-- Team Start -->
-    <section class="team">
-        <div class="content">
-            <div class="header">
-                <h3>Our Team</h3>
-                <span class="line"></span>
-                <p>Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibu vestibulum ante in, pharetra ante.</p>
-            </div>
-            <div class="member">
-                <div class="part">
-                    <img src="./user1.jpg" />
-                    <h4>Nitu Singh</h4>
-                    <p>Marketing Specialist</p>
-                </div>
-                <div class="part">
-                    <img src="./user2.jpg" />
-                    <h4>Yogesh Singh</h4>
-                    <p>CEO & Founder</p>
-                </div>
-                <div class="part">
-                    <img src="./user3.jpg" />
-                    <h4>Nisha Sharma</h4>
-                    <p>Web Developer</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Team End -->
-    <!-- Testimonial Start -->
-    <section class="testimonial">
-        <div class="container">
-            <div class="sectioner-header">
-                <h3>Testimonials</h3>
-                <span class="line"></span>
-                <p>Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus, vestibulum ante in, pharetra ante.</p>
-            </div>
-            <div class="section-content">
-                <div class="img-left">
-                    <img src="./arrow-left.png">
-                </div>
-                <div class="item">
-                    <div class="img">
-                        <img src="./user1.jpg" alt="Placeholder" width="157" height="157">
-                    </div>
-                    <div class="text">
-                        <h2>John Michal</h2>
-                        <h4>Digital Designer</h4>
-                        <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratvo lutpat.</p>
-                    </div>
-                </div>
-                <div class="img-right">
-                    <img src="./arrow-right.png">
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-    <!-- Testimonial End -->
-    <!-- FAQ Start -->
-    <section class="faq">
-        <div class="container">
-            <div class="section-header">
-                <h3>Frequently Asked Questions</h3>
-                <span class="line"></span>
-                <p>Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus, vestibulum ante in, pharetra ante.</p>
-            </div>
-            <div class="section-content">
-                <div class="left">
-                    <div class="content">
-                        <h4>Nam tellus felis, dignissim quis dui ?</h4>
-                        <p>Suspendisse fermentum placerat enim, at pellentesque augue. Nullam elit est, ultricies et tellus ac, euismod placerat orci. Donec commodo.</p>
-                    </div>
-                    <div class="content">
-                        <h4>Mauris scelerisque, dui non faucibus vulputate ?</h4>
-                        <p>Sed tempus in neque ac rhoncus. Phasellus vehicula, erat tempor malesuada egestas, mauris tellus malesuada erat, at vestibulum nulla ex et lectus. Nullam elit est, ultricies et tellus ac, euismod placerat orci.</p>
-                    </div>
-                    <div class="content">
-                        <h4>Nullam elit est, ultricies et tellus ac ?</h4>
-                        <p>Ut vestibulum euismod aliquet. Quisque nec malesuada nibh. Vivamus euismod nunc eu leo faucibus, vel elementum justo posuere. In sed varius nisi. Curabitur id porta ipsum, et vestibulum dui.</p>
-                    </div>
-                </div>
-                <div class="right">
-                    <div class="content">
-                        <h4>Suspendisse fermentum placerat enim, at pellentesque augue elit est ?</h4>
-                        <p>Vivamus euismod nunc eu leo faucibus, vel elementum justo posuere. In sed varius nisi.</p>
-                    </div>
-                    <div class="content">
-                        <h4>Ut vestibulum euismod aliquet. Quisque nec malesuada nibh ?</h4>
-                        <p>Suspendisse fermentum placerat enim, at pellentesque augue. Nullam elit est, ultricies et tellus ac, euismod placerat orci. Donec commodo dapibus congue.</p>
-                    </div>
-                    <div class="content">
-                        <h4>Donec commodo dapibus congue ?</h4>
-                        <p>Nullam elit est, ultricies et tellus ac, euismod placerat orci fermentum placerat enim, at pellentesque augue. Nullam elit est, ultricies et tellus ac, euismod placerat orci. Donec commodo dapibus congue.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- FAQ End -->
-    <!-- Contact Start -->
-    <section class="contact">
-        <div class="container">
-            <div class="sectioner-header">
-                <h3>Contact us</h3>
-                <span class="line"></span>
-                <p>Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus, vestibulum ante in, pharetra ante.</p>
-            </div>
-            <div class="full">
-                <div class="left">
-                    <form id="contact_form" action="">
-                        <div class="name-email">
-                        <div class="data">
-                            <input type="text" id="your_name" class="form-input " name="full-name"
-                                placeholder="Full Name" required>
-                        </div>
-                        <div class="data">
-                            <input type="email" id="email" class="form-input" name="email" placeholder="Email"
-                                required>
-                        </div>
-                        </div>
-                        <input type="text" id="subject" class="form-input " name="subject" placeholder="Subject">
-                        <textarea class="form-input" id="message" placeholder="Message" name="message"></textarea>
-                        <button type="submit" name="button">submit</button>
+            <div class="father-book2">
+                <di class="book2">
+                    <form>
+                        <h1>Book For A Service</h1>
+                        <input class="name" type="text" placeholder="your Name" required="">
+                        <input class="email" type="email" placeholder="your Email" required="">
+                        <select name="id">
+                            <option value=""> Select Service A </option>
+                            <option value="">service-1</option>
+                            <option value="">service-2</option>
+                            <option value="">service-3</option>
+                            <option value="">service-4</option>
+                        </select>
+                        <input type="date" placeholder="Service Date">
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <input class="submit" type="submit">
                     </form>
                 </div>
-
-                <div class=" right">
-                    <div class="right-all">
-                        <ul>
-                            <li>
-                                <i class="fa fa-map-marker-alt media-left media-right-margin"></i>
-                                <p class="text-uppercase">Address:</p>
-                                <p class="text-uppercase">New Delhi, India</p>
-                            </li>
-                        </ul>
-
-                        <ul>
-                            <li>
-                                <i class="fa fa-mobile media-left media-right-margin"></i>
-                                <p class="text-uppercase">Phone:</p>
-                                <p class="text-uppercase">
-                                    <a class="text-white" href="tel:+01272003920">009900990099</a>
-                                </p>
-                            </li>
-                        </ul>
-
-                        <ul>
-                            <li>
-                                <i class="fa fa-envelope media-left media-right-margin"></i>
-                                <p class="text-uppercase">E-mail:</p>
-                                <p class="text-uppercase">
-                                    <a class="text-white" href="rwam.mamdoh3@gmail.com">yogeshsingh.now@gmail.com</a>
-                                </p>
-                            </li>
-                        </ul>
-
-                        <ul>
-                            <li>
-                                <i class="fa fa-clock media-left media-right-margin"></i>
-                                <p class="text-uppercase">Working Hours:</p>
-                                <p class="text-uppercase">Mon-Fri 9.00 AM to 5.00PM.</p>
-                            </li>
-                        </ul>
+            </div>
+        </div>
+        <!-- end book  -->
+        <!-- start expert  -->
+        <div class="expert">
+            <div class="car">
+                <h3>OUR TECHNICIANS</h3>
+                <h2>Our Expert Technicians</h2>
+            </div>
+            <div class="expert-all">
+                <div class="expert1">
+                    <img src="./img/team-1.jpg" alt="" width="60%">
+                    <div class="text">
+                        <h2>FUll NAME</h2>
+                        <h4>Designation</h4>
                     </div>
                 </div>
-
+                <div class="expert1">
+                    <img src="./img/team-2.jpg" alt="" width="60%">
+                    <div class="text">
+                        <h2>FUll NAME</h2>
+                        <h4>Designation</h4>
+                    </div>
+                </div>
+                <div class="expert1">
+                    <img src="./img/team-3.jpg" alt="" width="60%">
+                    <div class="text">
+                        <h2>FUll NAME</h2>
+                        <h4>Designation</h4>
+                    </div>
+                </div>
+                <div class="expert1">
+                    <img src="./img/team-4.jpg" alt="" width="60%">
+                    <div class="text">
+                        <h2>FUll NAME</h2>
+                        <h4>Designation</h4>
+                    </div>
+                </div>
             </div>
         </div>
+        <!-- end expert  -->
+        <!-- start clients  -->
+        <div class="clients">
+            <h3>TESTIMONIAL</h3>
+            <h1>OUR Clients Say!</h1>
+            <div class="client">
+                <div class="client1">
+                    <div class="img">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Tempora repellendus necessitatibus debitis repudiandae!
+                        </p>
+                        <img src="./img/testimonial-2.jpg" alt="">
+                        <h2>Client Name</h2>
+                        <h4>Profession</h4>
+                    </div>
+                    
+                </div>
+                <div class="client1">
+                    <div class="img">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Tempora repellendus necessitatibus debitis repudiandae!
+                        </p>
+                        <img src="./img/testimonial-3.jpg" alt="">
+                        <h2>Client Name</h2>
+                        <h4>Profession</h4>
+                    </div>
+                </div>
+                <div class="client1">
+                    <div class="img">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Tempora repellendus necessitatibus debitis repudiandae!
+                        </p>
+                        <img src="./img/testimonial-4.jpg" alt="">
+                        <h2>Client Name</h2>
+                        <h4>Profession</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end clients -->
+        <!-- start footer -->
+        <div class="footer-big">
+            <div class="footer">
+                <div class="one">
+                    <ul>
+                        <h2>Address</h2>
+                        <li><i class="fa-solid fa-location-dot"></i>123 Street,New York,USA</li>
+                        <li><i class="fa-solid fa-phone"></i>+123456789</li>
+                        <li><i class="fa-solid fa-envelope-open"></i>info@example.com</li>
+                        <li>
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="two">
+                    <ul>
+                        <h2>Opening Hours</h2>
+                        <li>Monday-Friday:</li>
+                        <li>09:00 Am-09:00 Pm</li>
+                        <li>Saturday-Sunday:</li>
+                        <li>09:00 Am-12:00 Pm</li>
+                    </ul>
+                </div>
+                <div class="three">
+                    <ul>
+                        <h2>Services</h2>
+                        <li><a href="">Drain Cleaning</a></li>
+                        <li><a href="">Sewer Line</a></li>
+                        <li><a href="">Water Heating</a></li>
+                        <li><a href="">Toilet Cleaning</a></li>
+                        <li><a href="">Broken Pipe</a></li>
+                    </ul>
+                </div>
+                <div class="four">
+                    <ul id="immo2">
+                        <h2>Newsletter</h2>
+                        <li>Doler amet sit justo amet elitr clita ipsum elitr est.</li>
+                        <li><input class="email" type="email" placeholder="Your email" required="" ><input class="button" type="button" value="sing in"></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-small">
+                <div class="right">
+                    <p><a href="mhmodamen999@gmail.com"><u>@Your Site Name</u> </a>,All Right Resrved</p>
+                </div>
+                <div class="left">
+                    <p>Designed By : IMMMo</p>
+                </div>
+            </div>
+        </div>
+        <!-- end footer  -->
+        <!-- start come-back  -->
+        <div class="come-back">
+            <div class="come-back1">
+                <div class="top">
+                    <a href="#immo"><i class="fa-solid fa-angles-up fa-beat fa-xs"></i></a>
+                </div>
+                <div class="down">
+                    <a href="#immo2"><i class="fa-solid fa-angles-down fa-beat fa-xs"></i></a>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- Contact End -->
-    <!-- Download start -->
-    <section class="download">
-        <div class="container">
-            <div class="sectioner-header">
-                <h3>Download Our App</h3>
-                <span class="line"></span>
-                <p class="header">Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus, vestibulum ante in, pharetra ante.</p>
-            </div>
-            <div class="section-content">
-                <ul>
-                    <li><a href="#"><img src="./appstore.png" class="wow fadeInUp" data-wow-delay="0.4s" /></a>
-                    </li>
-                    <li><a href="#"><img src="./playstore.png" class="wow fadeInUp" data-wow-delay="0.7s" /></a>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-    </section>
-    <!-- Download End -->
-    <!-- start footer -->
-    <footer>
-        <div class="container">
-            <p>2018 &copy; Applight. Website Designed by <a href="http://w3Template.com" target="_blank"
-                    rel="dofollow">W3Template</a></p>
-        </div>
-    </footer>
-<!-- end footer -->
 </body>
-
 </html>
