@@ -182,6 +182,10 @@ nav .navbar li .home {
     padding-top: 50px;
 }
 
+.banner .all .left img:hover {
+    width: 70%;
+}
+
 .banner .all .left .h1p {
     padding: 10px 0;
 }
@@ -413,7 +417,9 @@ nav .navbar li .home {
 .team .member img {
     border-radius: 50%;
     width: 70%;
-
+}
+.team .member .part:hover {
+    width: 55%;
 }
 
 .team .member .part {
@@ -473,9 +479,20 @@ nav .navbar li .home {
     padding-right: 50px;
     padding-top: 50px;
 }
+
+.testimonial .img-left img:hover{
+    width: 150%;
+    transition: 0,2;
+}
+
 .testimonial .img-right {
     padding-left: 50px;
     padding-top: 50px;
+}
+
+.testimonial .img-right img:hover {
+    width: 150%;
+    transition: 0,2;
 }
 
 .testimonial .img {
@@ -490,6 +507,11 @@ nav .navbar li .home {
     width: 50%;
     height: 25vh;
     padding: 10px;
+}
+
+.testimonial .item:hover {
+    width: 60%;
+    transition: 0,2;
 }
 
 .testimonial .item h4{
